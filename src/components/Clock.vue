@@ -1,6 +1,7 @@
 
 <template>
   <div class="container">
+    <h3>Time Clock</h3>
     <div class="clock-border">
       <div class="clock-inner" :class="color">
         <div class="hour">{{ hours }}</div>
